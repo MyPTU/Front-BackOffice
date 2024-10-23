@@ -1,0 +1,90 @@
+.popover .arrow {
+    display: none !important;
+    height: 500px
+    
+}
+
+.body {
+    font-family: 'Promptlight';
+    font-weight: 400;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.title{
+    display: flex;
+    font-weight: 600;
+    color: #035397;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 24px;
+    font-family: 'Promptlight';
+    
+}
+.spacess {
+
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 55%;
+    margin-top: 5%;
+    margin-right: 20%;
+    
+    
+  
+  
+    
+  
+  }
+.colorbutton {
+    display: block;
+    background: linear-gradient(90deg, #BB6BD9 0%, #F27A54 62.15%);
+    box-shadow: 0px 10px 10px rgba(1, 170, 192, 0.1);
+    border-radius: 25px;
+    width: 224px;
+    height: 50;
+    justify-content: flex-end;
+    
+}
+.size {
+    width: 40%;
+    height: 500%;
+    margin-top: 1%;
+    border-radius: 8%;
+    box-shadow: 1px 1px 6.25px 2.5px rgba(0, 0, 0, 0.1);
+}
+.labels {
+    font-size: 24px;
+    font-family: 'Promptlight';
+    
+
+}
+.username {
+    font-family: 'Promptlight';
+    font-size: 12px;
+    margin-top: 10%;
+    margin-left: -100%;
+    
+
+}
+.userimg {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.dropdown{
+    margin-right: 25px;
+    color: aliceblue;
+    
+}
+@media screen and (max-width: 768px) {
+    .username{
+        margin-right: -16%;
+        font-size: 10px;
+    
+    }
+    .userimg{
+        margin-right: 15%;
+    }
+    
+    
+  }

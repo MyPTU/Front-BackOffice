@@ -1,0 +1,40 @@
+.reportrow{
+    display: flex;
+    flex-direction: row;
+}
+.headerlabelreport{
+    font-family: 'Promptlight';
+    font-weight: 700px;
+    font-size: 16px;
+    margin-top: 10.5%;
+    
+}
+
+.underlabelreport{
+    font-family: 'Promptlight';
+    color: #757575;
+    margin-top: -5%;
+    font-size: 16px;
+}
+.shadowheader{
+    box-shadow: 1px 3px 5px 0px rgba(128,120,120,0.59);
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(128,120,120,0.59);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(128,120,120,0.59);
+}
+
+@media screen and (max-width: 768px) {
+    .headerlabelreport{
+        font-size: 10px;
+        margin-top: 19%;
+        
+    }
+    .underlabelreport {
+        font-size: 10px;
+    }
+    .Topic{
+        margin-left: -5%;
+    }
+    .reportrow {
+        margin-left: -5%;
+    }
+}

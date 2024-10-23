@@ -1,0 +1,154 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #035397;
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #757575;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #757575d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color:#035397 !important;
+  }
+
+.card-park{
+    margin-left:7%;
+    margin-Right:5%;
+    height:588px;
+    width: 1228px;
+    border:1px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-top: 6%;
+    
+    
+}
+
+
+.status-park{
+    
+    margin-left:70px;
+    background-color:#FFF0CA;
+    color:#C58E00;
+    font-family:Promptlight;
+    border-radius:4px;
+    font-size:10px;
+    line-height:30px;
+    font-weight:400px;
+
+}
+
+.status-button{
+    width: 110px;
+    margin-left:80px;
+    background-color:#035397;
+    color:#FFF;
+    font-family:Promptlight;
+    border-radius:4px;
+    font-size:10px;
+    line-height: 30px;
+    font-weight:400px;
+
+
+}
+
+.tag1{
+    font-family: Promptlight;
+    font-size: 10px;
+    line-height:36px;
+    font-weight:400px
+
+}
+
+.tag2{
+    font-family: Promptlight;
+    font-size:10px;
+    line-height:36px;
+    font-weight:400px;
+}
+
+.tag3{
+    font-family: Promptlight;
+    font-size:10px;
+    line-height:36px;
+    font-weight:400px;
+}
+
+.park-name{
+    color:"#757575";
+    font-family:Promptlight;
+    font-size:10px;
+    line-height:30px;
+    font-weight:400px;
+}
+
+.detail{
+    color:"#818181";
+    font-family:Promptlight;
+    font-size: 10px;
+    line-height:23px;
+    font-weight:400px;
+    
+
+}
+.detailall{
+    position:absolute;
+
+    margin-left: 350px;
+}
+.labelstate{
+   
+    margin-left: 17%;
+}
+
+@media screen and (max-width: 768px) {
+.stylerow{
+    display: flex;
+    flex-direction: row;
+}
+.destopic {
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-park{
+    width: 600px;
+    height: 1000px;
+    margin-left: 11%;
+}
+.detailall{
+    width: 400px;
+
+    margin-left: 1%;
+
+    margin-top: 43%;
+}
+.status-park{
+    width: 110px;
+    position: absolute;
+    margin-top: 90% ;
+    margin-left: -2%;
+
+
+
+}
+.status-button{
+    width: 110px;
+    position: absolute;
+    margin-top: 90% ;
+    margin-left: 43%;
+
+
+}
+
+}

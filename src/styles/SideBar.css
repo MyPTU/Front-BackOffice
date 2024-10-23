@@ -1,0 +1,63 @@
+.colors {
+    background-color: #1A324A;
+    width: 20.2%;
+    height: 100%;
+
+}
+.label {
+    font-family: 'Promptlight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.headlabel{
+    font-family: 'Promptlight';
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.77);
+    font-weight:bold;
+    
+}
+.logomypark {
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.menudashboard{
+    margin-top: 20%;
+    margin-left: 10%;
+    padding-right: 40px;
+
+}
+
+.notbutton {
+    margin-top: 10%;
+    margin-left: 8%;
+
+
+}
+
+.menupark {
+    margin-left: 10%;
+    padding-right: 40px;
+
+}
+.menunoti {
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-right: 40px;
+}
+.imagelogo {
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+}
+
+.btns {
+    background-color: #ffffff;
+    margin-top: 7% ;
+    border: 0;
+
+}
